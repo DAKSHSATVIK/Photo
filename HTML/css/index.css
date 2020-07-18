@@ -20,7 +20,7 @@ nav li{
 	display: inline-block;
 	border-width:3px groove;
 	line-height: 50px;
-	font-size: 20px;
+	font-size: 100%;
 	border-color: yellow;
 	font-family: calibri;
 }
@@ -34,7 +34,7 @@ nav a{
 	color: white;
 	text-decoration: none;
 	display: block;
-	padding-left: 15px;
+	padding-left: 2%;
 	transition-property:background-color,padding;
 	transition-delay: 0.1s;
 	transition-duration: 0.5s;
@@ -70,8 +70,8 @@ nav li ul li{
 
 /*upto here it sholud be on every page*/
 div img{
-	width: 250px;
-	height: 200px;
+	width: 20%;
+	height: 25%;
 	border-style: ridge;
 	align-self: center;
 	transition-property: width,border-radius,padding,height;
@@ -83,8 +83,8 @@ div img{
 	border-top-right-radius:40px;
 }
 div img:hover{
-	width: 300px;
-	height: 300px;
+	width: 25%;
+	height: 30%;
 	border-style:groove;
 	padding: 20px;
 	cursor:zoom-in;
